@@ -37,3 +37,22 @@
 重命名 git mv hello hellos
 
 查看提交历史 git log
+
+显示每次提交所引入的差异 git log -p
+                        git log --patch
+
+限制显示的日志条目数量 git log -p -3
+
+每次提交的简略统计信息 git log --stat
+使用不同于默认格式的方式展示提交历史 git log --pretty=oneline
+                                    git log --pretty=short
+                                    git log --pretty=full
+                                    git log --pretty=fuller
+
+定制记录的显示格式 git log --pretty=format:"%h - %an, %ar : %s"
+添加了一些 ASCII 字符串来形象地展示你的分支、合并历史 git log --pretty=format:"%h %s" --graph
+                                                    git log --pretty=oneline --graph
+
+
+
+
