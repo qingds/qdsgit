@@ -33,3 +33,5 @@
 移除文件 git rm hello
 
 从 Git 仓库中删除 git rm --cached hello
+
+重命名 git mv hello hellos
