@@ -60,7 +60,7 @@
 取消暂存的文件 git restore --staged readme
                 git reset HEAD readme
 
-
+撤销对文件的修改 git restore readme
 
 
 
