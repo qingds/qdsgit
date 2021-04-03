@@ -35,3 +35,5 @@
 从 Git 仓库中删除 git rm --cached hello
 
 重命名 git mv hello hellos
+
+查看提交历史 git log
