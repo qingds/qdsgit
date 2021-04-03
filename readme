@@ -57,6 +57,13 @@
 
 重新提交 git commit --amend
 
+取消暂存的文件 git restore --staged readme
+                git reset HEAD readme
+
+
+
+
+
 
 
 
