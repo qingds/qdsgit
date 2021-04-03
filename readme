@@ -1,0 +1,30 @@
+打开文件夹 explorer mygit
+初始化仓库 git init
+跟踪 git add redeme
+
+克隆仓库 git clone https://github.com/libgit2/libgit2
+克隆仓库 指定目录名 git clone https://gitshub.com/libgit2/libgit2 mylibgit
+
+文件的两种状态 ：已跟踪文件 未跟踪文件
+检查文件状态 git status 
+
+跟踪文件 git add readme
+
+暂存文件 git add readme
+
+状态简览 git status -s 
+        git status --short
+
+忽略文件 创建名为 .gitignore文件
+
+尚未暂存的文件更新了哪些部分 git diff
+
+查看已经暂存起来的变化 git diff --staged
+查看已经暂存起来的变化 git diff --cached
+
+提交 git commit
+
+每次准备提交前，先用 git status 看下
+
+在 commit 命令后添加 -m 选项，将提交信息与命令放在同一行 git commit -m "the first commit"
+
