@@ -27,4 +27,4 @@
 每次准备提交前，先用 git status 看下
 
 在 commit 命令后添加 -m 选项，将提交信息与命令放在同一行 git commit -m "the first commit"
-ok
+
