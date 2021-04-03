@@ -53,6 +53,11 @@
 添加了一些 ASCII 字符串来形象地展示你的分支、合并历史 git log --pretty=format:"%h %s" --graph
                                                     git log --pretty=oneline --graph
 
+显示最近的 n 条提交 git log -2
+
+重新提交 git commit --amend
+
+
 
 
 
